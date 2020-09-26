@@ -15,191 +15,212 @@
 
     <header class="caption">
         <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
     </header>
 
-    <section class="slide" id="cover">
-        <h2>Shower Presentation Engine</h2>
-        <p>Brought to you by <a href="https://pepelsbey.net">Vadim Makeev</a></p>
-        <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #cover h2 {
-                margin: 30px 0 0;
-                color: white;
-                text-align: center;
-                font-size: 70px;
-            }
+    <section class="slide">
+        <h2>Язык JavaScript</h2>
+        <p><b>Нет, не Java!</b></p>
 
-            #cover p {
-                margin: 10px 0 0;
-                text-align: center;
-                color: white;
-                font-style: italic;
-                font-size: 20px;
-            }
-
-            #cover p a {
-                color: white;
-            }
-        </style>
+        <ul>
+            <li>Изначально был создан для создания интерактивных веб-страниц</li>
+            <li>При помощи JS мы можем управлять элементами на веб-страницах</li>
+            <li>С развитием языка он стал использоваться для других целей. Например, на нем можно писать приложения для компьютеров и смартфонов</li>
+            <li>Но главная область приминения JS — создание приложений в вебе</li>
+        </ul>
     </section>
 
     <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+        <h2>Создание простой веб-страницы</h2>
+        <p>Язык html</p>
     </section>
 
     <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
+        <h2>Подключение скрипта на JS</h2>
     </section>
 
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Code samples</h2>
+     <section class="slide">
+        <h2>Программа говорит привет!</h2>
+        
         <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
+            <code>alert('Hello, world!');</code>
+        </pre>
+
+        <p>В конце каждой строчки кода ставится точка с запятой</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №1</h2>
+        <p>Подключите скрипт на JS при помощи внешнего файла и выведите на экран приветствие от программы.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Переменные</h2>
+        
+        <p><b>Переменная</b> – это «именованное хранилище» для данных. Мы можем использовать переменные для хранения  чисел, товаров, посетителей и других данных</p>
+
+        <p>Переменные как коробки для данных</p>
+
+        <p>Для создания переменной в JavaScript используется ключевое слово let</p>
+    </section>
+
+    <section class="slide">
+        <h2>Создание переменной</h2>
+        
+        <pre>
+            <code>let message;</code>
+            <code>message = 'Привет!';</code>
+            <code>alert(message);</code>
+        </pre>
+
+        <ul>
+            <li>Можно объявлять несколько переменных в одной строке</li>
+            <li>Для изменения значения переменной не нужно ее заного объявлять</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Неизменяемые переменные – константы</h2>
+        
+        <pre>
+            <code>const MESSAGE = 'Привет!';</code>
+            <code>MESSAGE = 'Здравствуй!';</code>
+            <code>alert(MESSAGE);</code>
+        </pre>
+
+        <p>Принято записывать имена констант большими буквами</p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Важно давать понятные имена переменным</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №2</h2>
+        <p>Создайте переменную для названия нашей планеты. Как бы вы её назвали?</p>
+        <p>Создайте переменную для хранения имени текущего посетителя сайта. Как бы вы назвали такую переменную?</p>
+    </section>
+
+    <section class="slide">
+        <h2>Типы данных</h2>
+
+        <ul>
+            <li>Программа работает с разной информацией</li>
+            <li>Информация может быть разного типа</li>
+            <li>У любых данных в JS есть свой тип</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Числа</h2>
+
+        <pre>
+            <code>let number1 = 123;</code>
+            <code>let number2 = 12.345;</code>
+        </pre>
+
+        <p>С числами можно совершать математические действия</p>
+        <p>А что с делением на ноль?</p>
+    </section>
+
+    <section class="slide">
+        <h2>Строки</h2>
+
+        <pre>
+            <code>let name = 'Artem';</code>
+            <code>let greet = 'Привет';</code>
+        </pre>
+
+        <p>Строка – это последовательность символов</p>
+        <p>Попробуем сложить строку с числом?</p>
+    </section>
+
+    <section class="slide">
+        <h2>null и undefined</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Подстановка значений в строку</h2>
+
+        <pre>
+            <code>name = 'Артем';</code>
+            <code>alert(`Привет, ${name}!`)</code>
         </pre>
     </section>
 
     <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
+        <h2>Задача №3</h2>
+        <p>Что выведет этот скрипт?</p>
 
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="https://fiftyfootshadows.net">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
+        <pre>
+            <code>let name = "Ilya";</code>
+            <code>alert( `hello ${1}` );</code>
+            <code>alert( `hello ${"name"}` );</code>
+            <code>alert( `hello ${name}` );</code>
+        </pre>
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
+        <h2>Спросим что-нибудь у пользователя</h2>
+
+        <pre>
+            <code>name = prompt('Как тебя зовут?');</code>
+            <code>alert(`Привет, ${name}!`);</code>
+        </pre>
     </section>
 
     <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
+        <h2>Задача №4</h2>
+        <p>Создайте страницу, которая спрашивает имя, фамилию и возраст у пользователя и выводит их в приветствии.</p>
+
+        <p>
+            <em>Привет, Артем Форкунов! Ваш возраст равен 28!</em>
+        </p>
     </section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
+    <section class="slide">
+        <h2>Задача №5</h2>
+        <p>Спросите у пользователя два числа. Выведите результаты их сложения, вычитания, умножения и деления.</p>
     </section>
 
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
+    <section class="slide">
+        <h2>Задача №6</h2>
+
+        <p>Пользователь вводит одно число. Программа должна вывести предыдущее и следующее за ним в следующем формате:</p>
+        <p>
+            <em>Число предшествующее числу 10 равно 9</em><br>
+            <em>Число следующее за числом 10 равно 11</em>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №7</h2>
+
+        <p>Пользователь вводит в программу число x. Программа должна вывести результат выражения x*x - 10*x + 15</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №8</h2>
+
+        <p>В программу вводятся длины катетов прямоугольного треугольника a и b. Программа должна найти и вывести на экран длину его гипотенузы c и периметр p.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №9</h2>
+
+        <p>Даны две целочисленных переменных a и b. Поменяйте значения переменных местами.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №10</h2>
+
+        <p>Известно, что х кг конфет стоит A рублей. Определить, сколько стоит 1 кг и y кг этих же конфет.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №11</h2>
+
+        <p>Даны три точки a, b, c на числовой оси. Точка c расположена между точками a и b. Найти произведение длин отрезков ac и bc.</p>
+    </section>
 
     <div class="progress"></div>
 
