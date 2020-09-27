@@ -222,6 +222,214 @@
         <p>Даны три точки a, b, c на числовой оси. Точка c расположена между точками a и b. Найти произведение длин отрезков ac и bc.</p>
     </section>
 
+    <section class="slide">
+        <h2>Задача №12</h2>
+
+        <div class="columns two">
+            <p>В программу вводятся 2 числа a и b. Программа должна вывести результаты всех доступных в JavaScript операций сравнения с этими числами.<br><em># пусть a = 5, b = 2</em></p>
+            
+            <p>
+                <em>a > b: True</em><br>
+                <em>a < b: False</em><br>
+                <em>a == b: False</em><br>
+                <em>a != b: True</em><br>
+                <em>a >= b: True</em><br>
+                <em>a <= b: False</em><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Сравнение разных типов</h2>
+
+        <pre>
+            <code>alert('2' > 1);</code>
+            <code>alert('01' == 1);</code>
+        </pre>
+
+        <pre>
+            <code>alert(true == 1);</code>
+            <code>alert(false == 0);</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Логические операции</h2>
+
+        <ul>
+            <li>И, and - &&</li>
+            <li>Или, or - ||</li>
+            <li>Не, not - !</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Логические операции</h2>
+
+        <pre>
+            <code>let a = 6;</code>
+            <code>let b = 4;</code>
+            <code>let c = 8;</code>
+            <code>alert(a > b && b > c)</code>
+            <code>alert(a > b || b > c)</code>
+            <code>alert(!true)</code>
+            <code>alert(!(a > b))</code>
+        </pre>
+    </section>
+
+    <section class="slide">
+        <h2>Логические операции</h2>
+        <div class="columns two">
+            <table class="striped">
+                <caption><b>and</b></caption>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a and b</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+            <table class="striped">
+                <caption><b>or</b></caption>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a and b</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №13</h2>
+
+        <p>Дано целое число a. Проверить истинность высказывания: "Число a является четным".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №14</h2>
+
+        <p>Дано целое число a. Проверить истинность высказывания: "Число a является нечетным".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №15</h2>
+
+        <p>Даны два целых числа: a, b. Проверить истинность высказывания: "Числа a и b имеют одинаковую четность".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №16</h2>
+
+        <p>Даны три целых числа: a, b, c. Проверить истинность высказывания: "Хотя бы одно из чисел a, b, c положительное".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №17</h2>
+
+        <p>Дано натуральное число. Выведите его последнюю цифру.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №18</h2>
+
+        <p>Дано положительное действительное число x. Выведите его дробную часть.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №19</h2>
+
+        <p>Дано положительное действительное число x. Выведите его первую цифру после десятичной точки.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №20</h2>
+
+        <p>Дано число секунд n на часах. Посчитайте прошедших минут и секунд.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №21</h2>
+
+        <p>С начала суток прошло N секунд (N - целое). Найти количество часов, минут и секунд на электронных часах.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №22</h2>
+
+        <p>Пирожок в столовой стоит a рублей и b копеек. Определите, сколько рублей и копеек нужно заплатить за n пирожков. Программа получает на вход три числа: a, b, n, и должна вывести два числа: стоимость покупки в рублях и копейках.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №23</h2>
+
+        <p>Дано натуральное число. Найдите число десятков в его десятичной записи.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №24</h2>
+
+        <p>Дано двузначное число. Найдите сумму его цифр.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №25</h2>
+
+        <p>Дано трехзначное число. Найдите сумму его цифр.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №26</h2>
+
+        <p>Дано трехзначное число. Проверить истинность высказывания: "Все цифры данного числа различны".</p>
+    </section>
+
+    <section class="slide">
+        <h2>Задача №27</h2>
+
+        <p>Дано трехзначное число. Проверить истинность высказывания: "Цифры данного числа образуют возрастающую или убывающую последовательность".</p>
+    </section>
+
     <div class="progress"></div>
 
     <script src="node_modules/@shower/core/dist/shower.js"></script>
